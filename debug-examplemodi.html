@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>my page</title>
+
+  <body>
+   <h1>HTML debugging examples</h1>
+
+<p>What causes errors in HTML?</p>
+<h2>Browsers are kind</h2>
+<p>They may assume the best, but you want your code to work well across all browsers, avoid bugs that may pile up, and to be readable. You want to be professional, so don't forget to run your html validation - e.g., through the <a href=https://validator.w3.org>W3 Validator</a> tool
+
+<ul>
+  <li>Unclosed elements: If an element is <strong> not closed properly,</strong>
+      then its effect can spread to areas you didn't intend
+
+  <li>Badly nested elements: Nesting elements properly is also very important
+      for code behaving correctly. <strong>strong <em>strong emphasised?</strong>
+      what is this?</em>
+<ul>
+  <li>Unclosed attributes: Another common source of HTML problems. Let's
+      look at an example: <a> href="https://www.mozilla.org/">
+	  link to Mozilla
+      homepage</a>
+<ul>
+	<li>If you use information in a spot where the html expects emptiness:
+	<li><img scr="test.jpg">Misspellings and quotes can be a problem, do you have an alt text for images</li>
+	<li>did your page have a proper beginning - Doctype declaration, head with title?</li>
+	<li>For images and html to work, pay attention to file extensions, file locations, and things such as quotation mark encoding (don't use "curly quotes" which come from word processing programs - so basically, you can use Notepad or Notepad++ (or an IDE) but do not use Microsoft Word or something similar to that - do not save as .rtf)
+	<li>An improvement to use of specific characters, such as semicolons, is to use their equivalents, e.g., <code>&nbsp;</code> for an ampersand</li>
+</ul>
